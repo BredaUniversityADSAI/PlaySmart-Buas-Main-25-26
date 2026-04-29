@@ -2,8 +2,7 @@
 name = "Packages"
 version = "0.1.0"
 description = "Enhancing Performance for the Breda Guardians through Data Analytics"
-authors = [
-]
+authors = []
 license = "MIT"
 readme = "README.md"
 
