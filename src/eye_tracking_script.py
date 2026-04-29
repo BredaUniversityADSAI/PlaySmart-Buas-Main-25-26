@@ -6,7 +6,6 @@ import pandas as pd
 import screeninfo
 import tobii_research as tr
 import keyboard
-import sys
 
 
 # Get screen resolution
@@ -50,7 +49,6 @@ def gaze_data_callback(gaze_data):
     
     """
     global smoothed_x, smoothed_y
-    now = datetime.now()
     unix_time = int(time.time()*1000)  # Get current Unix time in seconds
 
     if use_mock_data:
