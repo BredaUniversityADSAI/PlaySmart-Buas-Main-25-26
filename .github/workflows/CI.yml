@@ -16,5 +16,6 @@ jobs:
         with:
           python-version: '3.10'
       - run: pip install poetry
+      - run: poetry lock --no-update
       - run: poetry install
       - run: poetry run ruff check .   # or flake8
