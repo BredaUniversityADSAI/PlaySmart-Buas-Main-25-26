@@ -43,6 +43,9 @@ moviepy = "^2.1.1"
 mss = "^10.0.0"
 ultralytics = "^8.3.77"
 
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.9.0"
+
 [tool.poetry.dev-dependencies]
 pytest = "*"
 flake8 = "*"
