@@ -4,7 +4,6 @@ import datetime
 import tkinter as tk
 from tkinter import simpledialog
 import json
-import sys
 import time
 from tkinter import ttk
 
